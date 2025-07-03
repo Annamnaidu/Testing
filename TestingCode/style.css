@@ -1,0 +1,28 @@
+.flag{
+    width: 400px;
+    height: 150px;
+    padding: 15px;
+}
+.colour1{
+    background-color: #FF9933;
+    height: 50px;
+  border-radius: 50px 20px;
+  border: 2px solid red;
+}
+.colour2{
+    background-color: white;
+    height: 50px;
+    text-align: center;
+    border-radius: 50px 20px;
+    border: 3px solid red;
+}
+.colour2 img{
+    height: 50px;
+    width: 60px;
+}
+.colour3{
+    background-color:#138808;
+    height: 50px;
+    border-radius: 50px 20px;
+    border: 3px solid red;
+}
