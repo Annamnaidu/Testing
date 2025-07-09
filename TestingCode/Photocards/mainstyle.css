@@ -1,0 +1,101 @@
+.main1{
+    width: 150%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(129, 129, 131);
+    padding: 10px;
+    border: 3px solid black;
+    justify-content: center;
+    border-radius: 100px;
+}
+.main1:hover{
+    background-color: cornsilk;
+    border: 5px solid black;
+}
+.mainContaner{
+    width: 44%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(129, 129, 131);
+    padding: 10px;
+    border: 3px solid black;
+    justify-content: center;
+    border-radius: 100px;
+}
+.mainContaner:hover{
+    background-color: rgb(144, 120, 132);
+    border: 5px solid black;
+}
+.container{
+margin: 20px;
+height: 350px;
+width: 250px;
+border: 2px solid red;
+background-color: rgb(144, 147, 109);
+padding: 5px;
+text-align: center;
+border-radius: 60px;
+}
+.container img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 2px solid red;
+    /* position: relative;
+    left: 17%; */
+}
+.container:hover{
+background-color: chartreuse;
+border: 5px solid black;
+
+}
+img:hover{
+    background-color: fuchsia;
+    border: 5px solid black;
+}
+.container h5{
+    border-radius: 10px; 
+    border: 2px solid red;  
+    padding: 5px; 
+    color: blue;
+    background-color: white;
+}
+h5:hover{
+    background-color: rgb(7, 129, 174);
+    color: red;
+    border: 5px solid black;
+}
+.class1{
+    width: 40%;
+    height: 50px;
+    margin: 2px;
+    background-color: blanchedalmond;
+    border: 2px solid red;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+.class1 .class2{
+    width: 10%;
+    margin: 2px;
+    background-color: blanchedalmond;
+    border: 2px solid red;
+    display: flex;
+    border-radius: 100%;
+    position: relative;
+    left: 15px;
+    top: 2px;
+    justify-content: center;
+    align-items: center;
+    color: rgb(7, 129, 174);
+}
+.class1:hover{
+    background-color: aqua;
+    color: rgb(224, 14, 122);
+    border: 3px solid blue;
+}
+.class2:hover{
+    background-color: aqua;
+    color: rgb(224, 14, 122);
+    border: 3px solid blue;
+}

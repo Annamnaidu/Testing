@@ -1,0 +1,85 @@
+.mainHeader{
+    display: flex;
+    width: 100%;
+    background-color: black;
+    margin: 3px;
+}
+.mainHeader .navigation{
+list-style-type: none;
+display: flex;
+gap: 35px;
+position: relative;
+top: 15px;
+color: red;
+}
+.mainHeader .icons{
+    display: flex;
+    width: 20px;
+    height: 30px; 
+}
+.icons{
+    position: relative;
+    left: 450px;
+    top: -10px;
+    gap: 5px;
+}
+.icons img{
+    border: 2px solid red;
+    border-radius: 30px;
+}
+.mainHeader button{
+    width: 150px;
+    position: relative;
+    left: 500px;
+    top: -15px;
+    padding: 10px;
+    color: blue;
+    background-color: chocolate;
+    border-radius: 30px;
+}
+.firstCard{
+display: flex;
+width: 99.8%;
+height: 200%;
+justify-content: center;
+align-items: center;
+
+}
+.firstCard img{
+    width: 800px;
+    height: 500px;
+    padding: 20px;
+    border-radius: 50px;
+}
+.firstCard p{
+text-align: center;
+font-size: 150%;
+}
+.posters{
+width: 100%;
+height: 100%;
+background-color:antiquewhite;
+border-radius: 20px;
+}
+.secondPoster{
+    display: flex;
+    padding: 15px;
+    border-radius: 20px;
+    background-color: antiquewhite;
+}
+.innerCard{
+display: flex;
+width: 50%;
+height: 50%;
+justify-content: center;
+align-items: center;   
+}
+.innerCard  img{
+    width: 250px;
+    height: 200px;
+    padding: 20px;
+    border-radius: 50px;
+}
+.secondPoster:hover{
+background-color: cornsilk;
+}
