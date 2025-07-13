@@ -1,7 +1,11 @@
+
 .mainHeader{
+    width: 80%;
     display: flex;
-    background-color: black;
+    background-color: white;
     margin: 3px;
+    padding: 10px 0px 0px 90px;
+
 }
 .mainHeader .navigation{
 list-style-type: none;
@@ -10,148 +14,184 @@ gap: 35px;
 position: relative;
 top: 15px;
 color: red;
+padding: 20px 0px 30px 30px;
 }
 .mainHeader .icons{
     display: flex;
-    width: 20px;
-    height: 30px; 
+    width: 50px;
+    height: 50px; 
 }
 .icons{
     position: relative;
-    left: 450px;
+    left: 750px;
     top: -10px;
     gap: 5px;
+    
 }
 .icons img{
     border: 2px solid red;
     border-radius: 30px;
 }
 .mainHeader button{
-    width: 150px;
+    width: 120px;
     position: relative;
-    left: 500px;
-    top: -15px;
+    left: 870px;
+    top: -13px;
     padding: 10px;
     color: blue;
     background-color: chocolate;
     border-radius: 30px;
 }
 .posters{
-width: 100%;
-height: 100%;
-border-radius: 20px;
-padding: 30px;
+    width: 96.5%;
+    height: 98%;
+    background-color: whitesmoke;
+    padding: 30px;
+    justify-items: center;
+    
 }
-.firstCard{
-display: flex;
-width: 95%;
-height: 200%;
-justify-content: flex-start;
-align-items: center;
-background-color: antiquewhite;
-border: 2px solid antiquewhite;
-padding: 10px;
-border-radius: 10px;
+.posters .firstCard{
+    width: 90%;
+    height: 150%;
+    display:flex;
+    padding: 30px 20px 10px 20px;
+    background-color:white;
+    gap: 50px;
+    border-radius: 20px;
+
 }
-.firstCard img{
-    width: 500px;
-    height: 250px;
-    padding: 20px;
-    border-radius: 50px;
+.firstCard .character{
+    height: 30px;
+    list-style: none;
+    flex-wrap: wrap;
+    padding: 5px;
+    font-size: 20px;
 }
-.firstCard p{
-font-size: 150%;
+
+.character #buttonActon{
+    width: 100px;
+    height: auto;
+    text-align: center;
+    border-radius: 10px;
+    background-color:rgb(215, 213, 213);
+    padding: 3px;
+    position: relative;
+    bottom: -5px;
+    color: blue;
+}
+.character .Content1{
+    font-size: 40px;
+    font-weight: bold;
+    position: relative;
+    bottom: -10px;
+}
+.character img{
+    width: 50px;
+    height: 50px;
+    border: 2px solid whitesmoke;
+    border-radius: 30px;
+    position: relative;
+    top: -10px;
+}
+.character .name{
+    position: relative;
+    top: 30px;
+    left: 70px;
+}
+.character li{
+font-size: 25px;
+position: relative;
+bottom: -20px;
 }
 .posters2{
-    width: 100%;
-    height: 100%;
-    padding: 30px;
-}
-.posters2-1{
-  display: flex;
-  width: 350px;
-  height: auto;
-  gap: 10%;
-}
-.firstCard1{
-display: flex;
-width: 250%;
-gap: 30px;
-align-items: center;
-background-color: antiquewhite;
-border: 2px solid antiquewhite;
-padding: 10px;
-border-radius: 5px;
-}
-.firstCard1 img{
-    width: 500px;
-    height: 200px;
-    border-radius: 10px;
-}
-.firstCard2{
-display: flex;
-align-items: center;
-gap: 30px;
-background-color: antiquewhite;
-border: 5px solid white;
-padding: 10px;
-border-radius: 10px;
-}
-.firstCard2 img{
-    width: 500px;
-    height: 200px;
-    border-radius: 10px;
-}
-.posters2-1 .firstCard1{
-border-radius: 5px;
-}
-.posters2-1 .firstCard2{
-
-border-radius: 5px;
-}
-.categ{
-    text-align: center;
-}
-h1{
-font-size: 70px;
-    position: relative;
-    bottom: 40px;
-}
-h6{
-    font-size: 20px;
-    position: relative;
-    bottom: 58px;
-}
-.list{
-    list-style: none;
     display: flex;
-    text-align: center;
-    justify-content: space-evenly;
-    position: relative;
-    bottom: 55px;
+    width: 90%;
+    background-color: whitesmoke;
+    border: 2px solid whitesmoke;
+    gap: 25px;
+    padding: 10px 100px 20px 90px;
 
 }
-.list .lists{
-    border: 5px solid black;
-    padding: 10px;
-    border-radius: 20px;
+.posters2 .innerfirstcard{
+display: flex;
+padding: 10px 10px 10px 10px;
+border: 2px solid white;
+border-radius: 10px;
+background-color: white;
 }
-.list .lists:hover{
+.Category{
+    text-align: center;
+    padding: 35px 0px 0px 0px;
+}
+.Categories .lists{
+    list-style-type: none;
+    padding: 50px 0px 20px 0px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.lists li{
+    text-align: center;
+    border: 3px solid rgb(46, 44, 44);
+    border-radius: 15px;
+    padding: 5px;
+}
+.lists li:hover{
     background-color: black;
     color: white;
-    border: 5px solid white;
+    border:3px solid rgb(107, 113, 116);
 }
-button{
-    padding: 10px;
-    border-radius: 10px;
-    background-color: white;
-    color: black;
+.images{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px; /* space between cards */
+  justify-content: center;
+  
+
+}
+.firstimage{
+ width: 30%;
+ border-radius: 25px;
+}
+.images .firstimage h4{
     position: relative;
-    left: 48%;
-    top: 20%;
+    left: 55px;
+    bottom: 35px;
+    font-size: 20px;
 }
-button:hover{
-    background-color: black;
-    color: white;
+.images .firstimage h5{
+    text-align: center;
+    width: 28%;
+    position: relative;
+    left: 70%;
+    bottom: 75px;
+    border: 2px solid rgb(168, 168, 235);
+    background-color: rgb(170, 170, 240);
+    color: rgba(2, 2, 248, 0.973);
+    border-radius: 10px;
+}
+.images .firstimage .icon{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    bottom: -35px;
+}
+.browse-button {
+  text-align: center;
+  margin: 30px 0;
+}
+
+.browse-button button {
+  padding: 15px 28px;
+  background-color: white;
+  color: rgb(14, 12, 12);
+  font-size: 16px;
+  border:3px solid black;
+  border-radius: 8px;
+  width: 20%;
+}
+
+.browse-button button:hover {
+  background-color: navy;
+  color: white;
 }
 
