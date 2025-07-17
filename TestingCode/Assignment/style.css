@@ -1,6 +1,6 @@
 
 .mainHeader{
-    width: 80%;
+    width: 880px;
     display: flex;
     background-color: white;
     margin: 3px;
@@ -23,7 +23,7 @@ padding: 20px 0px 30px 30px;
 }
 .icons{
     position: relative;
-    left: 750px;
+    left: 350px;
     top: -10px;
     gap: 5px;
     
@@ -35,7 +35,7 @@ padding: 20px 0px 30px 30px;
 .mainHeader button{
     width: 120px;
     position: relative;
-    left: 870px;
+    left: 470px;
     top: -13px;
     padding: 10px;
     color: blue;
@@ -43,22 +43,23 @@ padding: 20px 0px 30px 30px;
     border-radius: 30px;
 }
 .posters{
-    width: 96.5%;
+    width: 1450px;
     height: 98%;
     background-color: whitesmoke;
     padding: 30px;
     justify-items: center;
+    align-items: center;
     
 }
 .posters .firstCard{
-    width: 90%;
+    width: 1200px;
     height: 150%;
     display:flex;
     padding: 30px 20px 10px 20px;
     background-color:white;
     gap: 50px;
     border-radius: 20px;
-
+    
 }
 .firstCard .character{
     height: 30px;
@@ -105,7 +106,7 @@ bottom: -20px;
 }
 .posters2{
     display: flex;
-    width: 90%;
+    width: 1320px;
     background-color: whitesmoke;
     border: 2px solid whitesmoke;
     gap: 25px;
@@ -223,14 +224,19 @@ background-color: white;
 .authors ul{
     list-style-type: none;
 }
+.newsletter1{
+    width: 1420px;
+    padding: 40px;
+    background-color: whitesmoke;
+}
    .newsletter {
       display: flex;
       justify-content: space-between;
       align-items: center;
-      background: #f4f4f4;
+      background: white;
       border-radius: 12px;
       padding: 10px 3% 10px 3%;
-
+      
     }
     .newsletter input {
       padding: 10px;
@@ -243,3 +249,6 @@ background-color: white;
      background-color: black;
      color: aliceblue;
     }
+
+
+   
