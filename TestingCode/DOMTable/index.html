@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let body=document.querySelector("body");
+
+
+
+        let tableTag=document.createElement("table");
+        let trTag=document.createElement("tr");
+        let trTag2=document.createElement("tr");
+        let tabHead1=document.createElement("th");
+        let tabHead2=document.createElement("th");
+        let tabHead3=document.createElement("th");
+        let tabHeadDate1=document.createElement("td");
+        let tabHeadDate2=document.createElement("td");
+        let tabHeadDate3=document.createElement("td");
+        let txt1=document.createTextNode("     Name");
+        let txt2=document.createTextNode("Emp Id");
+        let txt3=document.createTextNode("Location");
+
+        let tabHeadDate4=document.createElement("td");
+        let tabHeadDate5=document.createElement("td");
+        let tabHeadDate6=document.createElement("td");
+        let txt4=document.createTextNode("AnnamNaidu");
+        let txt5=document.createTextNode("936402");
+        let txt6=document.createTextNode("Hyd");
+    
+
+        body.appendChild(tableTag);
+        tableTag.appendChild(trTag);
+        trTag.appendChild(tabHead1);
+        tabHead1.appendChild(tabHeadDate1);
+        tabHeadDate1.appendChild(txt1);
+        trTag.appendChild(tabHead2)
+        tabHead2.appendChild(tabHeadDate2);
+        tabHeadDate2.appendChild(txt2);
+        trTag.appendChild(tabHead3);
+        tabHead3.appendChild(tabHeadDate3);
+        tabHeadDate3.appendChild(txt3);
+
+        tableTag.appendChild(trTag2)
+        trTag2.appendChild(tabHeadDate4);
+        tabHeadDate4.appendChild(txt4);
+        trTag2.appendChild(tabHeadDate5);
+        tabHeadDate5.appendChild(txt5);
+        trTag2.appendChild(tabHeadDate6);
+        tabHeadDate6.appendChild(txt6);
+
+
+        tableTag.setAttribute("border",'1')
+
+    
+
+
+
+    </script>
+</body>
+</html>

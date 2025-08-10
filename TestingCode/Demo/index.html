@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+</script>
+
+    <script>
+        // String Methods
+        let data="Annamnaidu";
+        let data2="Thulasi";
+        let datalenth=data.length;
+        console.log(datalenth);
+
+        let dataPosition=data.charAt(4);
+        console.log(dataPosition);
+
+        let dataPosition2=data.charCodeAt(0)
+        console.log(dataPosition2);
+         let dataAt= data.at(6);
+         console.log(dataAt);
+
+         let dataConcat=data.concat(data2);
+         console.log(dataConcat);
+
+         const dataslice=data.slice(2,6);
+         console.log(dataslice);
+
+         let dataslice2=data.substring(2,6);
+         console.log(dataslice2);
+
+         console.log(data.substr(2,6));
+
+         let dataPadStart=data.padStart(8,"    ");
+         console.log(dataPadStart);
+
+        console.log( data.replace('a','A'));
+
+        console.log(data.replaceAll('a','A'));
+
+        console.log(data.includes("b"));
+
+        console.log(data.indexOf('i'));
+
+        console.log(data.lastIndexOf("a"));
+
+        console.log(data.toUpperCase(data));
+
+        console.log(data2.toLowerCase(data2));
+        
+        // Arrays
+
+        let arr=[1,2,3,4,5,6];
+        let arr2=[7,8,9]
+
+        let arrlength=arr.length;
+        console.log(arrlength); // Givesn an array length
+
+        console.log(arr.at(3)); // Gives an index value of the Array
+        
+        arr.push(8);
+
+
+        console.log(arr);
+
+        arr.pop();
+
+        console.log(arr);
+
+        // arr.shift();
+        // console.log(arr);
+
+        arr.unshift();
+        console.log(arr);
+
+        console.log(arr.concat(arr2));
+        
+        let newArr=arr.slice(3,8);
+
+        console.log(newArr);
+        
+        let newArr2=arr.toSpliced(2,3,10,11)
+        
+        console.log(newArr2);
+
+        let newArr3=arr.splice(1,1,12,13);
+
+        console.log(newArr3);
+        
+        // Objects
+
+
+        let person={
+            name:"Annam",
+            Age:32,
+            EmpId:936402,
+            Location:"Hyd"
+        }
+
+        console.log(person);
+
+        person.edu="B.Tech";
+
+        console.log(person);
+
+        delete person.EmpId;
+
+        console.log(person);
+
+        let k=Object.keys(person);
+
+        console.log(k);
+
+        let value1=Object.values(person);
+        console.log(value1);
+
+        for(x in person){
+            console.log(x+"::"+person[x]); 
+        }
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+     </script>
+</body>
+</html>

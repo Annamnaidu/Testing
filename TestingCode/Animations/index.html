@@ -11,6 +11,18 @@
         <div class="box2">
             <h5>box2</h5>
         </div>
+
+        <p id="121"></p>
+
+        <div class="box">First Box</div>
+<div class="box">Second Box</div>
+
+
+<selection>
+    <h2>Naidu</h2>
+    <p>Annam</p>
+</selection>
+
     </div>
     <script>
         console.log("5"+5);
@@ -160,13 +172,25 @@ console.log(person);
 
 
 
-
+let doc=document.getElementById("121").innerText="Annamnaidu";
+      console.log(doc);
       
 
+     
+
+      let firstBox = document.querySelector(".box");
+firstBox.style.backgroundColor = "yellow";
+
       
+let allBoxes = document.querySelectorAll(".box");
+allBoxes.forEach(function(box) {
+  box.style.border = "2px solid red";
+});
+
       
-      
-      
+let sec=document.querySelector("section");
+sec.innerHTML{}
+console.log(sec);
 
         
 

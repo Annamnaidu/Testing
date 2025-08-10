@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <table border="10">
+        <tr>
+            <th colspan="6">Employee Information</th>
+        </tr>
+        <tr>
+            <th>S.No</th>
+            <th>employee Name</th>
+            <th>employee ID</th>
+            <th>Designation</th>
+            <th>Experience</th>
+            <th>Location</th>
+        </tr>
+
+        <tr>
+            <td>1</td>
+            <td>Vamsee Krishna</td>
+            <td>2289441</td>
+            <td>FSD - MERN</td>
+            <td rowspan="2">8</td>
+            <td>Hyd</td>
+        </tr>
+
+        <tr>
+            <td>2</td>
+            <td>Neha Reddy</td>
+            <td>2289442</td>
+            <td>UI/UX Designer</td>
+    
+            <td>Bang</td>
+        </tr>
+
+        <tr>
+            <td>3</td>
+            <td>Rahul Mehta</td>
+            <td>2289443</td>
+            <td>Java Full Stack</td>
+            <td>6</td>
+            <td>Pune</td>
+        </tr>
+
+        <tr>
+            <td>4</td>
+            <td>Swathi Sharma</td>
+            <td>2289444</td>
+            <td>Python Developer</td>
+            <td>4</td>
+            <td>Chennai</td>
+        </tr>
+
+        <tr>
+            <td>5</td>
+            <td>Arjun Das</td>
+            <td>2289445</td>
+            <td>DevOps Engineer</td>
+            <td>7</td>
+            <td>Delhi</td>
+        </tr>
+
+        <tr>
+            <td>6</td>
+            <td>Priya K</td>
+            <td>2289446</td>
+            <td>QA Analyst</td>
+            <td>3</td>
+            <td>Kolkata</td>
+        </tr>
+
+    <script>
+        let body=document.querySelector('body')
+        let divm=document.createElement('div');
+        console.log(divm);
+
+        divm.setAttribute('class', 'name');
+
+        let h1tag=document.createElement('h1');
+        let txt=document.createTextNode("Annamnaidu");
+
+        divm.appendChild(h1tag);
+        h1tag.appendChild(txt);
+
+        body.appendChild(divm);
+
+        // Table creation
+
+
+        let headtable=document.createElement('table');
+        let headerTable=document.createElement('th');
+        let tableRow1=document.createElement('tr');
+        let tableData1=document.createElement('td');
+        let tableRow2=document.createElement('tr');
+        let tableData2=document.createElement('td');
+        let tableinf1=document.createTextNode("Annamnaid1211433445678");
+         let tableinf2=document.createTextNode("Annamnaid");
+
+        body.appendChild(headtable);
+        headtable.appendChild(headerTable);
+        headerTable.appendChild(tableRow1);
+        headerTable.appendChild(tableRow2);
+        tableRow1.appendChild(tableData1);
+        tableRow2.appendChild(tableData2);
+        tableData1.appendChild(tableinf1)
+        tableData2.appendChild(tableinf2);
+
+        headtable.setAttribute('border','1')
+
+        console.log(headtable);
+        
+
+        
+
+        
+
+    </script>
+</body>
+</html>

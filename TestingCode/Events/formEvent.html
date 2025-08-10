@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="#" method="get" id="detail">
+        <input type="text" placeholder="EnterFirstName" id="fname">
+        <input type="text" placeholder="EnterLastName" id="Lname">
+        <button>Submit</button>
+    </form>
+    <p id="para"></p>
+
+    <button id="inc">+</button>
+    <p id="counter"></p>
+    <button id="dec">-</button>
+    <script>
+     document.getElementById("detail").addEventListener("submit",()=>{
+        let date=document.getElementById("fname").value;
+        let data=document.getElementById("Lname").value;
+        let Fdata=date+data;
+        document.getElementById("para").innerText=Fdata;
+     })
+     let count=0;
+     document.getElementById("inc").addEventListener("click",()=>{
+        let data=document.getElementById("counter");
+        count++;
+        data.innerText=count;
+        
+        
+     })
+      document.getElementById("dec").addEventListener("click",()=>{
+        let data=document.getElementById("counter");
+        count--;
+        data.innerText=count;
+        
+        
+     })
+
+
+
+    </script>
+</body>
+</html>
